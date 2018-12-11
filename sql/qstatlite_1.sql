@@ -122,7 +122,7 @@ BEGIN
   DECLARE D1 DATETIME;
   DECLARE D2 DATETIME;
   
-  -- инициализация интервалов. 
+  -- инициализация интервалов. intervals
   SET D1 = date1;
   SET D2 = DATE_ADD(D1,INTERVAL difftime SECOND);
   
